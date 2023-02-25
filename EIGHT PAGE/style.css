@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+
+}
+#about {
+    text-decoration: underline;
+    
+}
+
+
+li {
+    color: rgb(212,175,55);
+    /* Bullet Color */
+    list-style-type: square;
+}
+
+li span {
+    color: rgb(255, 255, 255);
+    /* Text Color */
+    width: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.leftregion {
+    position: relative;
+    top: 25px ;
+    left: 10px;
+    right: 10px;
+    bottom: 10px
+
+}
+
+ .img
+ {
+
+       width: 40px;
+       height: auto;
+       padding: 28px;
+       position: -webkit-sticky;
+
+ }
+ 
+ .socialicons , .follow_us {
+    display: inline-block;
+    padding: 10px;
+ }
+
+ .follow_us {
+    position: relative;
+    top: -40px;
+ }
+
+ .defination span{
+    color: rgb(212,175,55);
+    /* Bullet Color */
+    font-size: x-large;
+    width: 10%;
+    text-align: justify;
+ }
+
+ .footer {  
+    position: fixed;  
+    left: 10px;  
+    bottom: 5px;  
+    right: 10px;   
+    width: 95%;  
+    background-color: rgb(0, 0, 0);  
+    color: rgb(212,175,55);  
+    text-align: center;  
+    }  
+ 
